@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-# Nebula Logger for Salesforce
-Designed for Salesforce admins, developers & architects. A robust logger for Apex, Flow, Process Builder & Integrations.
-
 # Apex Classes
 ## Logger Engine
 The Apex classes used to generate `LogEntryEvent__e` platform event records.
