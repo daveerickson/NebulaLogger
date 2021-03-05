@@ -7,10 +7,10 @@ Provides the ability to generate string messages on demand, using String.format(
 
 ### Related
 
-[Logger](logger-engine/Logger
+[Logger](logger-engine/Logger)
 
 
-[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder
+[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder)
 
 ---
 ### Constructors
