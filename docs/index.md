@@ -5,35 +5,35 @@ layout: default
 # Classes
 ## logger-engine
 
-### [FlowLogEntry](docs/logger-engine/FlowLogEntry.md)
+### [FlowLogEntry](logger-engine/FlowLogEntry
 
 
 Handles adding new log entries in Flow
 
 
 
-### [FlowRecordLogEntry](docs/logger-engine/FlowRecordLogEntry.md)
+### [FlowRecordLogEntry](logger-engine/FlowRecordLogEntry
 
 
 Handles adding new log entries in Flow for a particular SObject record
 
 
 
-### [LogEntryEventBuilder](docs/logger-engine/LogEntryEventBuilder.md)
+### [LogEntryEventBuilder](logger-engine/LogEntryEventBuilder
 
 
 Builder class that generates each LogEntryEvent__c record
 
 
 
-### [LogMessage](docs/logger-engine/LogMessage.md)
+### [LogMessage](logger-engine/LogMessage
 
 
 Provides the ability to generate string messages on demand, using String.format()
 
 
 
-### [Logger](docs/logger-engine/Logger.md)
+### [Logger](logger-engine/Logger
 
 
 The core class for logging
@@ -41,49 +41,49 @@ The core class for logging
 
 ## log-management
 
-### [LogBatchPurgeScheduler](docs/log-management/LogBatchPurgeScheduler.md)
+### [LogBatchPurgeScheduler](log-management/LogBatchPurgeScheduler
 
 
 Schedulable class used to schedule the batch job LogBatchPurger
 
 
 
-### [LogBatchPurger](docs/log-management/LogBatchPurger.md)
+### [LogBatchPurger](log-management/LogBatchPurger
 
 
 Batch class used to delete old logs, based on Log__c.LogRetentionDate__c <= :System.today()
 
 
 
-### [LogEntryEventHandler](docs/log-management/LogEntryEventHandler.md)
+### [LogEntryEventHandler](log-management/LogEntryEventHandler
 
 
 Subscribes to LogEntryEvent__e platform events and normalizes the data into Log__c and LogEntry__c records
 
 
 
-### [LogEntryFieldSetPicklist](docs/log-management/LogEntryFieldSetPicklist.md)
+### [LogEntryFieldSetPicklist](log-management/LogEntryFieldSetPicklist
 
 
 Dynamically returns LogEntry__c field sets in App Builder when configuring the component RelatedLogEntries
 
 
 
-### [LogEntryHandler](docs/log-management/LogEntryHandler.md)
+### [LogEntryHandler](log-management/LogEntryHandler
 
 
 Manages setting fields on LogEntry__c before insert & update
 
 
 
-### [LogHandler](docs/log-management/LogHandler.md)
+### [LogHandler](log-management/LogHandler
 
 
 Manages setting fields on Log__c before insert & update
 
 
 
-### [RelatedLogEntriesController](docs/log-management/RelatedLogEntriesController.md)
+### [RelatedLogEntriesController](log-management/RelatedLogEntriesController
 
 
 Controller class for the component RelatedLogEntries
@@ -91,7 +91,7 @@ Controller class for the component RelatedLogEntries
 
 ## packaging
 
-### [LoggerInstallHandler](docs/packaging/LoggerInstallHandler.md)
+### [LoggerInstallHandler](packaging/LoggerInstallHandler
 
 
 Automatically enables org default settings when installing the managed package

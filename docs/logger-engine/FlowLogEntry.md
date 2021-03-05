@@ -1,6 +1,5 @@
 ---
 layout: default
-title: FlowLogEntry
 ---
 ## FlowLogEntry class
 
@@ -8,13 +7,13 @@ Handles adding new log entries in Flow
 
 ### Related
 
-[FlowRecordLogEntry](docs/logger-engine/FlowRecordLogEntry.md)
+[FlowRecordLogEntry](logger-engine/FlowRecordLogEntry
 
 
-[Logger](docs/logger-engine/Logger.md)
+[Logger](logger-engine/Logger
 
 
-[LogEntryEventBuilder](docs/logger-engine/LogEntryEventBuilder.md)
+[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder
 
 ---
 ### Properties

@@ -7,13 +7,13 @@ Handles adding new log entries in Flow for a particular SObject record
 
 ### Related
 
-[FlowLogEntry](docs/logger-engine/FlowLogEntry.md)
+[FlowLogEntry](logger-engine/FlowLogEntry
 
 
-[Logger](docs/logger-engine/Logger.md)
+[Logger](logger-engine/Logger
 
 
-[LogEntryEventBuilder](docs/logger-engine/LogEntryEventBuilder.md)
+[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder
 
 ---
 ### Properties

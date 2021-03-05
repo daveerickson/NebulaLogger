@@ -7,10 +7,10 @@ The core class for logging
 
 ### Related
 
-[LogEntryEventBuilder](docs/logger-engine/LogEntryEventBuilder.md)
+[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder
 
 
-[LogMessage](docs/logger-engine/LogMessage.md)
+[LogMessage](logger-engine/LogMessage
 
 ---
 ### Enums
