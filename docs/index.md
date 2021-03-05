@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-# Classes
-## logger-engine
+# Nebula Logger for Salesforce
+Designed for Salesforce admins, developers & architects. A robust logger for Apex, Flow, Process Builder & Integrations.
+
+# Apex Classes
+## Logger Engine
 
 ### [FlowLogEntry](logger-engine/FlowLogEntry)
 
@@ -38,7 +41,7 @@ Provides the ability to generate string messages on demand, using String.format(
 The core class for logging
 
 
-## log-management
+## Log Management
 
 ### [LogBatchPurgeScheduler](log-management/LogBatchPurgeScheduler)
 
