@@ -49,9 +49,10 @@ Optionally provide a list of topics to dynamically assign to the log entry.
  addFlowEntries description
 
 ##### Parameters
-| Param | Description |
+
+|Param|Description|
 |-----|-----------|
-| `flowLogEntries` | The list of FlowLogEntry instances to save |
+|`flowLogEntries` |  The list of FlowLogEntry instances to save |
 
 ##### Return
 

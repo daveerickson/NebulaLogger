@@ -33,6 +33,7 @@ The LogEntryEvent__e record
  Parses the provided stack trace and sets the log entry's origin & stack trace fields
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`stackTraceString` |  The Apex stack trace string to parse |
@@ -52,6 +53,7 @@ The same instance of LogEntryEventBuilder, useful for chaining methods
  Sets the log entry event's exception fields
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`apexException` |  The instance of an Exception to use. |
@@ -71,6 +73,7 @@ The same instance of LogEntryEventBuilder, useful for chaining methods
  Sets the log entry event's message field
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`logMessage` |  The instance of LogMessage to use - LogMessage.getMessage() will be used |
@@ -90,6 +93,7 @@ The same instance of LogEntryEventBuilder, useful for chaining methods
  Sets the log entry event's message field
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`message` |  The instance of LogMessage to use - LogMessage.getMessage() will be used |
@@ -109,6 +113,7 @@ The same instance of LogEntryEventBuilder, useful for chaining methods
  Sets the log entry event's record fields
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`record` |  The SObject record related to the entry. The JSON of the record is automatically added to the entry |
@@ -128,6 +133,7 @@ The same instance of LogEntryEventBuilder, useful for chaining methods
  Sets the log entry event's record fields
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`recordId` |  The ID of the SObject record related to the entry |
@@ -147,6 +153,7 @@ The same instance of LogEntryEventBuilder, useful for chaining methods
  Sets a comma-separate list of strings on the LogEntryEvent__e, which ultimately becomes Topic & TopicAssignment records on Log__c and LogEntry__c
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`topics` |  The list of strings to use as topics for the current entry |

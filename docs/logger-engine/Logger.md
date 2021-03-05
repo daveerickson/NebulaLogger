@@ -137,6 +137,7 @@ Quiddity - The value of System.Request.getCurrent().getQuiddity()
  Returns a Log__c record from the database
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`logId` |  - The Salesforce ID or TransactionId__c of the Log__c |
@@ -156,6 +157,7 @@ Log__c - The matching record, with all fields that the current user can access
  Converts a String to an instance of LoggingLevel
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`String` |  loggingLevelName - The string name of an Apex logging level |
@@ -258,6 +260,7 @@ Boolean
  Indicates if logging for the specified logging level is enabled for the current user, based on the custom setting LoggerSettings__c
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`loggingLevel` |  - The logging level to check |
@@ -389,6 +392,7 @@ Boolean
  Adds a new instance of LogEntryEventBuilder to Logger's buffer, if shouldSave == true
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`loggingLevel` |  The logging level enum for the new entry |
@@ -410,6 +414,7 @@ The new entry's instance of LogEntryEventBuilder
  Adds a new instance of LogEntryEventBuilder to Logger's buffer, if it meets the user's logging level
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`loggingLevel` |  The logging level enum for the new entry |
@@ -430,6 +435,7 @@ The new entry's instance of LogEntryEventBuilder
  Adds a new instance of LogEntryEventBuilder to Logger's buffer, if it meets the user's logging level
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`loggingLevel` |  The logging level enum for the new entry |
@@ -451,6 +457,7 @@ The new entry's instance of LogEntryEventBuilder
  Adds a new instance of LogEntryEventBuilder to Logger's buffer, if it meets the user's logging level
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`loggingLevel` |  The logging level enum for the new entry |
@@ -479,6 +486,7 @@ The new entry's instance of LogEntryEventBuilder
  Saves any entries in Logger's buffer, using the specified save method for only this call. All subsequent calls to saveLog() will use the transaction save method.
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`saveMethod` |  The enum value of Logger.SaveMethod to use for this specific save action. |
@@ -488,6 +496,7 @@ The new entry's instance of LogEntryEventBuilder
  Relates the current transaction's log to a parent log via the field Log__c.ParentLog__c This is useful for relating multiple asynchronous operations together, such as batch & queueable jobs.
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`parentTransactionId` |  - The transaction ID of the original parent transaction |
@@ -497,6 +506,7 @@ The new entry's instance of LogEntryEventBuilder
  Sets the default save method used when calling saveLog() - any subsequent calls to saveLog() will use the specified save method
 
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`saveMethod` |  - The enum value of Logger.SaveMethod to use for any other calls to saveLog() in the current transaction |

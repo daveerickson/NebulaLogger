@@ -18,6 +18,7 @@ Provides the ability to generate string messages on demand, using String.format(
 
  Constructor to handle dynamically formatting a string with 1 input
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`unformattedMessage` |  The base string to use for your log message |
@@ -32,6 +33,7 @@ String formattedMessage = new LogMessage('Today is {0}', System.today()).getMess
 
  Constructor to handle dynamically formatting a string with 2 inputs
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`unformattedMessage` |  The base string to use for your log message |
@@ -48,6 +50,7 @@ String formattedMessage = new LogMessage(unformattedMessage, 'something', 'somet
 
  Constructor to handle dynamically formatting a string with 3 inputs
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`unformattedMessage` |  The base string to use for your log message |
@@ -65,6 +68,7 @@ String formattedMessage = new LogMessage(unformattedMessage, 'something', 'somet
 
  Constructor to handle dynamically formatting a string with a list of inputs
 ##### Parameters
+
 |Param|Description|
 |-----|-----------|
 |`unformattedMessage` |  The base string to use for your log message |
