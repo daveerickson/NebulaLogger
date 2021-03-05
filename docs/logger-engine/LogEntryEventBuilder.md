@@ -7,7 +7,7 @@ Builder class that generates each LogEntryEvent__c record
 
 ### Related
 
-[Logger](logger-engine/Logger)
+[Logger](ogger)
 
 ---
 ### Constructors

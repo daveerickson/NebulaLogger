@@ -7,13 +7,13 @@ Handles adding new log entries in Flow
 
 ### Related
 
-[FlowRecordLogEntry](logger-engine/FlowRecordLogEntry)
+[FlowRecordLogEntry](FlowRecordLogEntry)
 
 
-[Logger](logger-engine/Logger)
+[Logger](Logger)
 
 
-[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder)
+[LogEntryEventBuilder](LogEntryEventBuilder)
 
 ---
 ### Properties
