@@ -6,6 +6,7 @@ Designed for Salesforce admins, developers & architects. A robust logger for Ape
 
 # Apex Classes
 ## Logger Engine
+The Apex classes used to generate `LogEntryEvent__e` platform event records.
 
 ### [FlowLogEntry](logger-engine/FlowLogEntry)
 
@@ -42,6 +43,7 @@ The core class for logging
 
 
 ## Log Management
+The Apex classes used to help automate & manage `Log__c` and `LogEntry__c` records
 
 ### [LogBatchPurgeScheduler](log-management/LogBatchPurgeScheduler)
 
@@ -91,7 +93,8 @@ Manages setting fields on Log__c before insert & update
 Controller class for the component RelatedLogEntries
 
 
-## packaging
+## Packaging
+Additional Apex classes used for the managed package
 
 ### [LoggerInstallHandler](packaging/LoggerInstallHandler)
 
