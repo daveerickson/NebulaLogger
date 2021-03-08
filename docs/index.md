@@ -60,7 +60,9 @@ Manages setting fields on `Log__c` before insert & before update
 
 Controller class for the component RelatedLogEntries
 
-## packaging
+---
+
+## Packaging
 
 ### [LoggerInstallHandler](packaging/LoggerInstallHandler)
 
