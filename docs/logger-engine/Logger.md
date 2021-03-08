@@ -8,9 +8,9 @@ The core class for logging
 
 ### Related
 
-[LogEntryEventBuilder](LogEntryEventBuilder)
+[LogEntryEventBuilder](NebulaLogger/logger-engine/LogEntryEventBuilder)
 
-[LogMessage](LogMessage)
+[LogMessage](NebulaLogger/logger-engine/LogMessage)
 
 ---
 
@@ -3752,13 +3752,13 @@ Quiddity - The value of System.Request.getCurrent().getQuiddity()
 
 #### `getLog(String logId)` → `Log__c`
 
-Returns a Log\_\_c record from the database
+Returns a Log\_\_c record from the database, using either the Salesforce ID or transaction ID
 
 ##### Parameters
 
-| Param   | Description                                           |
-| ------- | ----------------------------------------------------- |
-| `logId` | - The Salesforce ID or TransactionId**c of the Log**c |
+| Param   | Description                                         |
+| ------- | --------------------------------------------------- |
+| `logId` | The Salesforce ID or TransactionId**c of the Log**c |
 
 ##### Return
 
@@ -3768,7 +3768,7 @@ Log\_\_c
 
 **Description**
 
-Log\_\_c - The matching record, with all fields that the current user can access
+The matching record, with all fields that the current user can access
 
 #### `getLoggingLevel(String loggingLevelName)` → `LoggingLevel`
 
@@ -3776,9 +3776,9 @@ Converts a String to an instance of LoggingLevel
 
 ##### Parameters
 
-| Param    | Description                                                 |
-| -------- | ----------------------------------------------------------- |
-| `String` | loggingLevelName - The string name of an Apex logging level |
+| Param              | Description                              |
+| ------------------ | ---------------------------------------- |
+| `loggingLevelName` | The string name of an Apex logging level |
 
 ##### Return
 
@@ -3788,7 +3788,7 @@ LoggingLevel
 
 **Description**
 
-LoggingLevel - The matching instance of LoggingLevel (or a default value if a match is not found)
+The matching instance of LoggingLevel (or a default value if a match is not found)
 
 #### `getParentLogTransactionId()` → `String`
 
@@ -4686,7 +4686,7 @@ Adds a new instance of LogEntryEventBuilder to Logger's buffer, if shouldSave ==
 
 | Param          | Description                                                                                                                                         |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `loggingLevel` | The logging level enum for the new entry                                                                                                            |
+| `loggingLevel` | The logging level enum value for the new entry                                                                                                      |
 | `logMessage`   | The instance of LogMessage to use as the entry's message                                                                                            |
 | `shouldSave`   | Controls if the new entry will be saved. This can be used to save entries, even if the entry's logging level does not meet the user's logging level |
 
@@ -4708,7 +4708,7 @@ Adds a new instance of LogEntryEventBuilder to Logger's buffer, if it meets the 
 
 | Param          | Description                                              |
 | -------------- | -------------------------------------------------------- |
-| `loggingLevel` | The logging level enum for the new entry                 |
+| `loggingLevel` | The logging level enum value for the new entry           |
 | `logMessage`   | The instance of LogMessage to use as the entry's message |
 
 ##### Return
@@ -4729,7 +4729,7 @@ Adds a new instance of LogEntryEventBuilder to Logger's buffer, if it meets the 
 
 | Param          | Description                                                                                                                                         |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `loggingLevel` | The logging level enum for the new entry                                                                                                            |
+| `loggingLevel` | The logging level enum value for the new entry                                                                                                      |
 | `message`      | The string to use as the entry's message                                                                                                            |
 | `shouldSave`   | Controls if the new entry will be saved. This can be used to save entries, even if the entry's logging level does not meet the user's logging level |
 
@@ -4749,10 +4749,10 @@ Adds a new instance of LogEntryEventBuilder to Logger's buffer, if it meets the 
 
 ##### Parameters
 
-| Param          | Description                              |
-| -------------- | ---------------------------------------- |
-| `loggingLevel` | The logging level enum for the new entry |
-| `message`      | The string to use as the entry's message |
+| Param          | Description                                    |
+| -------------- | ---------------------------------------------- |
+| `loggingLevel` | The logging level enum value for the new entry |
+| `message`      | The string to use as the entry's message       |
 
 ##### Return
 

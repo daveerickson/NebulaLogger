@@ -4,11 +4,11 @@ layout: default
 
 ## LogBatchPurger class
 
-Batch class used to delete old logs, based on Log**c.LogRetentionDate**c <= :System.today()
+Batch class used to delete old logs, based on `Log__c.LogRetentionDate__c <= :System.today()`
 
 ### Related
 
-[LogBatchPurgeScheduler](LogBatchPurgeScheduler)
+[LogBatchPurgeScheduler](NebulaLogger/log-management/LogBatchPurgeScheduler)
 
 ---
 

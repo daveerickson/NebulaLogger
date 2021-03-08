@@ -8,7 +8,7 @@ Builder class that generates each `LogEntryEvent__c` record
 
 ### Related
 
-[Logger](Logger)
+[Logger](NebulaLogger/logger-engine/Logger)
 
 ---
 
@@ -285,7 +285,7 @@ The same instance of `LogEntryEventBuilder`, useful for chaining methods
 
 #### `shouldSave()` → `Boolean`
 
-Determines if this instance of LogEntryEventBuilder should be saved the next time that Logger.saveLog() is called
+Determines if this instance of `LogEntryEventBuilder` should be saved the next time that `Logger.saveLog()` is called
 
 ##### Return
 

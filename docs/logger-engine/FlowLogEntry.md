@@ -8,11 +8,11 @@ Handles adding new log entries in Flow
 
 ### Related
 
-[FlowRecordLogEntry](FlowRecordLogEntry)
+[FlowRecordLogEntry](NebulaLogger/logger-engine/FlowRecordLogEntry)
 
-[Logger](Logger)
+[Logger](NebulaLogger/logger-engine/Logger)
 
-[LogEntryEventBuilder](LogEntryEventBuilder)
+[LogEntryEventBuilder](NebulaLogger/logger-engine/LogEntryEventBuilder)
 
 ---
 
@@ -24,7 +24,7 @@ The name of the Flow creating the log entry. Due to Salesforce limitations, this
 
 #### `loggingLevelName` → `String`
 
-Optionally specify a logging level. The default is 'DEBUG'
+Optionally specify a logging level - the default is 'DEBUG'
 
 #### `message` → `String`
 
@@ -32,7 +32,7 @@ The message to log.
 
 #### `recordId` → `Id`
 
-Optionally relate the log entry to a particular record ID.
+Optionally relate the log entry to a particular record ID
 
 #### `saveLog` → `Boolean`
 
@@ -40,7 +40,7 @@ Optionally choose to save any pending log entries.
 
 #### `topics` → `List<String>`
 
-Optionally provide a list of topics to dynamically assign to the log entry.
+Optionally provide a list of topics to dynamically assign to the log entry
 
 ---
 
@@ -64,6 +64,6 @@ List<String>
 
 **Description**
 
-The current transaction's ID (based on Logger.getTransactionId())
+The current transaction's ID (based on `Logger.getTransactionId()`)
 
 ---

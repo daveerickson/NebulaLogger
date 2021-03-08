@@ -2,64 +2,64 @@
 layout: default
 ---
 
-# Nebula Logger: Documentation
+# Apex Documentation
 
 # Classes
 
 ## logger-engine
 
-### [FlowLogEntry](/logger-engine/FlowLogEntry)
+### [FlowLogEntry](NebulaLogger/logger-engine/FlowLogEntry)
 
 Handles adding new log entries in Flow
 
-### [FlowRecordLogEntry](/logger-engine/FlowRecordLogEntry)
+### [FlowRecordLogEntry](NebulaLogger/logger-engine/FlowRecordLogEntry)
 
-Handles adding new log entries in Flow for a particular SObject record
+Handles adding new log entries in Flow for a particular `SObject` record
 
-### [LogEntryEventBuilder](/logger-engine/LogEntryEventBuilder)
+### [LogEntryEventBuilder](NebulaLogger/logger-engine/LogEntryEventBuilder)
 
 Builder class that generates each `LogEntryEvent__c` record
 
-### [LogMessage](/logger-engine/LogMessage)
+### [LogMessage](NebulaLogger/logger-engine/LogMessage)
 
 Provides the ability to generate string messages on demand, using String.format()
 
-### [Logger](/logger-engine/Logger)
+### [Logger](NebulaLogger/logger-engine/Logger)
 
 The core class for logging
 
 ## log-management
 
-### [LogBatchPurgeScheduler](/log-management/LogBatchPurgeScheduler)
+### [LogBatchPurgeScheduler](NebulaLogger/log-management/LogBatchPurgeScheduler)
 
-Schedulable class used to schedule the batch job LogBatchPurger
+Schedulable class used to schedule the batch job `LogBatchPurger`
 
-### [LogBatchPurger](/log-management/LogBatchPurger)
+### [LogBatchPurger](NebulaLogger/log-management/LogBatchPurger)
 
-Batch class used to delete old logs, based on Log**c.LogRetentionDate**c <= :System.today()
+Batch class used to delete old logs, based on `Log__c.LogRetentionDate__c <= :System.today()`
 
-### [LogEntryEventHandler](/log-management/LogEntryEventHandler)
+### [LogEntryEventHandler](NebulaLogger/log-management/LogEntryEventHandler)
 
-Subscribes to LogEntryEvent**e platform events and normalizes the data into Log**c and LogEntry\_\_c records
+Subscribes to `LogEntryEvent__e` platform events and normalizes the data into `Log__c` and `LogEntry__c` records
 
-### [LogEntryFieldSetPicklist](/log-management/LogEntryFieldSetPicklist)
+### [LogEntryFieldSetPicklist](NebulaLogger/log-management/LogEntryFieldSetPicklist)
 
-Dynamically returns LogEntry\_\_c field sets in App Builder when configuring the component RelatedLogEntries
+Dynamically returns `LogEntry__c` field sets in App Builder when configuring the component RelatedLogEntries
 
-### [LogEntryHandler](/log-management/LogEntryHandler)
+### [LogEntryHandler](NebulaLogger/log-management/LogEntryHandler)
 
-Manages setting fields on LogEntry\_\_c before insert & update
+Manages setting fields on `LogEntry__c` before insert & before update
 
-### [LogHandler](/log-management/LogHandler)
+### [LogHandler](NebulaLogger/log-management/LogHandler)
 
-Manages setting fields on Log\_\_c before insert & update
+Manages setting fields on `Log__c` before insert & before update
 
-### [RelatedLogEntriesController](/log-management/RelatedLogEntriesController)
+### [RelatedLogEntriesController](NebulaLogger/log-management/RelatedLogEntriesController)
 
 Controller class for the component RelatedLogEntries
 
 ## packaging
 
-### [LoggerInstallHandler](/packaging/LoggerInstallHandler)
+### [LoggerInstallHandler](NebulaLogger/packaging/LoggerInstallHandler)
 
 Automatically enables org default settings when installing the managed package
