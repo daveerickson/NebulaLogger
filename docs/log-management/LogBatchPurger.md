@@ -8,7 +8,7 @@ Batch class used to delete old logs, based on `Log__c.LogRetentionDate__c <= :Sy
 
 ### Related
 
-[LogBatchPurgeScheduler](log-management/LogBatchPurgeScheduler)
+[LogBatchPurgeScheduler](LogBatchPurgeScheduler)
 
 ---
 
