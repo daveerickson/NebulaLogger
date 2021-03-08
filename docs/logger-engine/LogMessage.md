@@ -8,9 +8,9 @@ Provides the ability to generate string messages on demand, using String.format(
 
 ### Related
 
-[Logger](NebulaLogger/logger-engine/Logger)
+[Logger](logger-engine/Logger)
 
-[LogEntryEventBuilder](NebulaLogger/logger-engine/LogEntryEventBuilder)
+[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder)
 
 ---
 

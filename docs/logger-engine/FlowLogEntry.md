@@ -8,11 +8,11 @@ Handles adding new log entries in Flow
 
 ### Related
 
-[FlowRecordLogEntry](NebulaLogger/logger-engine/FlowRecordLogEntry)
+[FlowRecordLogEntry](logger-engine/FlowRecordLogEntry)
 
-[Logger](NebulaLogger/logger-engine/Logger)
+[Logger](logger-engine/Logger)
 
-[LogEntryEventBuilder](NebulaLogger/logger-engine/LogEntryEventBuilder)
+[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder)
 
 ---
 

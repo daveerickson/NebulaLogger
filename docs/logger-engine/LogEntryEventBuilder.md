@@ -8,7 +8,7 @@ Builder class that generates each `LogEntryEvent__c` record
 
 ### Related
 
-[Logger](NebulaLogger/logger-engine/Logger)
+[Logger](logger-engine/Logger)
 
 ---
 

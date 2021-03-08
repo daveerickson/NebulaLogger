@@ -8,9 +8,9 @@ The core class for logging
 
 ### Related
 
-[LogEntryEventBuilder](NebulaLogger/logger-engine/LogEntryEventBuilder)
+[LogEntryEventBuilder](logger-engine/LogEntryEventBuilder)
 
-[LogMessage](NebulaLogger/logger-engine/LogMessage)
+[LogMessage](logger-engine/LogMessage)
 
 ---
 
