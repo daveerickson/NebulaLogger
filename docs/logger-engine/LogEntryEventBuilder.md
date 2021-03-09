@@ -63,7 +63,7 @@ LogEntryEventBuilder
 
 The same instance of `LogEntryEventBuilder`, useful for chaining methods
 
-#### `setDatabaselResult(Database.DeleteResult deleteResult)` → `LogEntryEventBuilder`
+#### `setDatabaseResult(Database.DeleteResult deleteResult)` → `LogEntryEventBuilder`
 
 Sets the log entry event's DML result fields
 
@@ -83,7 +83,7 @@ LogEntryEventBuilder
 
 The same instance of `LogEntryEventBuilder`, useful for chaining methods
 
-#### `setDatabaselResult(Database.MergeResult mergeResult)` → `LogEntryEventBuilder`
+#### `setDatabaseResult(Database.MergeResult mergeResult)` → `LogEntryEventBuilder`
 
 Sets the log entry event's DML result fields
 
@@ -103,7 +103,7 @@ LogEntryEventBuilder
 
 The same instance of `LogEntryEventBuilder`, useful for chaining methods
 
-#### `setDatabaselResult(Database.SaveResult saveResult)` → `LogEntryEventBuilder`
+#### `setDatabaseResult(Database.SaveResult saveResult)` → `LogEntryEventBuilder`
 
 Sets the log entry event's DML result fields
 
@@ -123,7 +123,7 @@ LogEntryEventBuilder
 
 The same instance of `LogEntryEventBuilder`, useful for chaining methods
 
-#### `setDatabaselResult(Database.UpsertResult upsertResult)` → `LogEntryEventBuilder`
+#### `setDatabaseResult(Database.UpsertResult upsertResult)` → `LogEntryEventBuilder`
 
 Sets the log entry event's DML result fields
 
@@ -143,7 +143,7 @@ LogEntryEventBuilder
 
 The same instance of `LogEntryEventBuilder`, useful for chaining methods
 
-#### `setDatabaselResult(Database.UndeleteResult undeleteResult)` → `LogEntryEventBuilder`
+#### `setDatabaseResult(Database.UndeleteResult undeleteResult)` → `LogEntryEventBuilder`
 
 Sets the log entry event's DML result fields
 
